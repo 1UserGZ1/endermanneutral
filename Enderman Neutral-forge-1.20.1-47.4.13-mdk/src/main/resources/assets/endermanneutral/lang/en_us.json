@@ -1,0 +1,22 @@
+{
+  "mod.endermanneutral": "Enderman Neutral",
+  "mod.endermanneutral.description": "Makes creepers neutral mobs that only attack when provoked",
+
+  "config.endermanneutral.client.show_debug_messages": "Show Debug Messages",
+  "config.endermanneutral.client.creeper_texture_override": "Creeper Texture Override",
+
+  "config.endermanneutral.server.disable_aggression": "Disable Aggression",
+  "config.endermanneutral.server.require_sneak_attack": "Require Sneak Attack",
+  "config.endermanneutral.server.explode_on_provoked": "Explode When Provoked",
+  "config.endermanneutral.server.anger_duration": "Anger Duration (seconds)",
+  "config.endermanneutral.server.explosion_radius": "Explosion Radius",
+  "config.endermanneutral.server.explosion_destroys_blocks": "Explosion Destroys Blocks",
+
+  "config.endermanneutral.common.enable_mod": "Enable Mod",
+  "config.endermanneutral.common.mod_description": "Mod Description",
+
+  "message.endermanneutral.creeper_neutral": "Creeper is now neutral",
+  "message.endermanneutral.creeper_provoked": "Creeper has been provoked!",
+  "message.endermanneutral.mod_disabled": "Mod is disabled",
+  "message.endermanneutral.config_reloaded": "Configuration reloaded"
+}

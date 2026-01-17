@@ -1,0 +1,22 @@
+{
+  "mod.endermanneutral": "苦力怕中立",
+  "mod.endermanneutral.description": "使苦力怕成为中立生物，只在被攻击时反击",
+
+  "config.endermanneutral.client.show_debug_messages": "显示调试信息",
+  "config.endermanneutral.client.creeper_texture_override": "苦力怕纹理覆盖",
+
+  "config.endermanneutral.server.disable_aggression": "禁用主动攻击",
+  "config.endermanneutral.server.require_sneak_attack": "需要潜行攻击",
+  "config.endermanneutral.server.explode_on_provoked": "被激怒时爆炸",
+  "config.endermanneutral.server.anger_duration": "激怒持续时间（秒）",
+  "config.endermanneutral.server.explosion_radius": "爆炸半径",
+  "config.endermanneutral.server.explosion_destroys_blocks": "爆炸破坏方块",
+
+  "config.endermanneutral.common.enable_mod": "启用模组",
+  "config.endermanneutral.common.mod_description": "模组描述",
+
+  "message.endermanneutral.creeper_neutral": "苦力怕现在是中立状态",
+  "message.endermanneutral.creeper_provoked": "苦力怕已被激怒！",
+  "message.endermanneutral.mod_disabled": "模组已禁用",
+  "message.endermanneutral.config_reloaded": "配置已重新加载"
+}

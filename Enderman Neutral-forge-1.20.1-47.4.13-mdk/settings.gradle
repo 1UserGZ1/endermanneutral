@@ -1,0 +1,40 @@
+pluginManagement {
+    repositories {
+        // 国内镜像源
+        maven {
+            url = 'https://maven.aliyun.com/repository/gradle-plugin'
+        }
+        maven {
+            url = 'https://maven.aliyun.com/repository/public'
+        }
+
+        // 原始仓库
+        gradlePluginPortal()
+        maven {
+            url = 'https://maven.minecraftforge.net/'
+        }
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.7.0'
+}
+
+dependencyResolutionManagement {
+    repositories {
+        // 国内镜像源
+        maven {
+            url = 'https://maven.aliyun.com/repository/public'
+        }
+        maven {
+            url = 'https://repo.huaweicloud.com/repository/maven'
+        }
+
+        // Minecraft 仓库
+        maven {
+            url = 'https://maven.minecraftforge.net/'
+        }
+    }
+}
+
+rootProject.name = 'endermanneutral'
